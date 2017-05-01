@@ -54,6 +54,10 @@ public class Players
 		singlePowers = new Powers(ids);
 		System.out.println("new Power: " + singlePowers);
 	}
+	public static void reset()
+	{
+		singlePowers = null;
+	}
 	public static Powers getSinglePowers()
 	{
 		return singlePowers;

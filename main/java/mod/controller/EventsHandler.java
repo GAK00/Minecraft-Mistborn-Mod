@@ -22,6 +22,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class EventsHandler
 {
 	private int saveTick;
+
 	public EventsHandler(Object[] toRegister)
 	{
 		for (Object object : toRegister)
@@ -46,6 +47,7 @@ public class EventsHandler
 			Players.addPlayer(loggedIn.player);
 		}
 	}
+
 	@SubscribeEvent(priority = EventPriority.HIGHEST)
 	public void removePlayer(PlayerLoggedOutEvent loggedOut)
 	{
@@ -54,10 +56,12 @@ public class EventsHandler
 			try
 			{
 				Players.getPlayer(loggedOut.player).save(null);
-			} catch (Exception e){
-			
+			} catch (Exception e)
+			{
+
 				e.printStackTrace();
-			};
+			}
+			;
 			Players.removePlayer(loggedOut.player.getUniqueID());
 		}
 	}
@@ -65,30 +69,35 @@ public class EventsHandler
 	@SubscribeEvent(priority = EventPriority.NORMAL)
 	public void clientRemovePlayer(ClientDisconnectionFromServerEvent loggedOut)
 	{
-		Players.removePlayer(Minecraft.getMinecraft().player.getUniqueID());
+		Players.reset();
 	}
+
 	@SubscribeEvent(priority = EventPriority.LOW)
 	public void backupSave(ServerTickEvent tick)
 	{
-		if(saveTick >= 6000){
-		for(PoweredPlayer player : Players.getPlayers())
+		if (saveTick >= 6000)
 		{
-			if(!player.world.isRemote){
-			player.save(null);}
-		}}
-		else
+			for (PoweredPlayer player : Players.getPlayers())
+			{
+				if (!player.world.isRemote)
+				{
+					player.save(null);
+				}
+			}
+		} else
 		{
 			saveTick++;
 		}
 	}
+
 	@SideOnly(Side.CLIENT)
 	@SubscribeEvent(priority = EventPriority.NORMAL)
 	public void drawOverlay(RenderGameOverlayEvent.Post event)
 	{
-		if(event.getType() != ElementType.EXPERIENCE)
-		return;
+		if (event.getType() != ElementType.EXPERIENCE)
+			return;
 		new PowerOverlay();
-		
+
 	}
 
 	@SubscribeEvent(priority = EventPriority.NORMAL)

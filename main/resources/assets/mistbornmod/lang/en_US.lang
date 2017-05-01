@@ -1,0 +1,107 @@
+#Items
+item.zinc_ingot.name=Zinc Ingot
+item.copper_ingot.name=Copper Ingot
+item.tin_ingot.name=Tin Ingot
+item.brass_ingot.name=Brass Ingot
+item.bronze_ingot.name=Bronze Ingot
+item.pewter_ingot.name=Pewter Ingot
+item.steel_ingot.name=Steel Ingot
+item.atium_bead.name=Atium Bead
+item.shaving_knife.name=Shaving Knife
+item.zinc_shavings.name=Zinc Shavings
+item.copper_shavings.name=Copper Shavings
+item.tin_shavings.name=Tin Shavings
+item.brass_shavings.name=Brass Shavings
+item.bronze_shavings.name=Bronze Shavings
+item.pewter_shavings.name=Pewter Shavings
+item.steel_shavings.name=Steel Shavings
+item.iron_shavings.name=Iron Shavings
+item.gold_shavings.name=Gold Shavings
+item.vial.name=Vial
+item.vialmed.name=Large Vial
+item.vialhuge.name=Huge Vial
+item.lerasium.name=Lerasium
+item.ls.name=Lerasium
+item.li.name=Lerasium
+item.lc.name=Lerasium
+item.lbro.name=Lerasium
+item.lbra.name=Lerasium
+item.lz.name=Lerasium
+item.lp.name=Lerasium
+item.lt.name=Lerasium
+item.lg.name=Lerasium
+item.la.name=Lerasium
+item.glasssword.name=Glass Dagger
+item.steelsword.name=Steel Sword
+item.steelpick.name=Steel Pickaxe
+item.steelaxe.name=Steel Axe
+item.steelshovel.name=Steel Shovel
+item.tinsword.name=Tin Sword
+item.tinpick.name=Tin Pickaxe
+item.tinaxe.name=Tin Axe
+item.tinshovel.name=Tin Shovel
+item.zincsword.name=Zinc Sword
+item.zincpick.name=Zinc Pickaxe
+item.zincaxe.name=Zinc Axe
+item.zincshovel.name=Zinc Shovel
+item.coppersword.name=Copper Sword
+item.copperpick.name=Copper Pickaxe
+item.copperaxe.name=Copper Axe
+item.coppershovel.name=Copper Shovel
+item.obsidiansword.name=Obsidian Sword
+item.steelhelm.name=Steel Helmet
+item.steelshirt.name=Steel Chestplate
+item.steelpants.name=Steel Leggings
+item.steelshoes.name=Steel Boots
+item.pewterhelm.name=Pewter Helmet
+item.pewtershirt.name=Pewter Chestplate
+item.pewterpants.name=Pewter Leggings
+item.pewtershoes.name=Pewter Boots
+item.bronzehelm.name=Bronze Helmet
+item.bronzeshirt.name=Bronze Chestplate
+item.bronzepants.name=Bronze Leggings
+item.bronzeshoes.name=Bronze Boots
+item.brasshelm.name=Brass Helmet
+item.brassshirt.name=Brass Chestplate
+item.brasspants.name=Brass Leggings
+item.brassshoes.name=Brass Boots
+item.steelhoe.name=Steel Hoe
+item.zinchoe.name=Zinc Hoe
+item.copperhoe.name=Copper Hoe
+item.tinhoe.name=Tin Hoe
+
+
+
+#Blocks
+tile.tin.name=Tin Ore
+tile.zinc.name=Zinc Ore
+tile.copper.name=Copper Ore
+tile.atium.name=Atium Ore
+tile.alloySmeltIdle.name=Alloy Furnace
+tile.tinBlock.name=Block of Tin
+tile.copperBlock.name=Block of Copper
+tile.zincBlock.name=Block of Zinc
+tile.steelBlock.name=Block of Steel
+tile.bronzeBlock.name=Block of Bronze
+tile.brassBlock.name=Block of Brass
+tile.pewterBlock.name=Block of Pewter
+tile.larasiumOre.name=Lerasium Ore
+
+#tabs
+itemGroup.MistbornTab=Mistborn Tab
+#containers
+container.alloyfurnace=Alloy Furnace
+#keys
+key.burn=Toggle Burn
+key.iron=Toggle Iron
+key.steel=Toggle Steel
+key.brass=Toggle Brass
+key.bronze=Toggle Bronze
+key.atium=Toggle Atium
+key.gold=Toggle Gold
+key.tin=Toggle Tin
+key.pewter=Toggle Pewter
+key.zinc=Toggle Zinc
+key.action=Action Key
+key.copper=Toggle Copper
+key.categories.mistborn=Mistborn

@@ -2,6 +2,8 @@ package mod.controller;
 
 import org.apache.logging.log4j.Logger;
 
+import mod.model.objects.items.MistbornItems;
+import mod.model.objects.tabs.Tabs;
 import mod.model.powers.metals.Metals;
 import mod.model.tools.FileHandler;
 import mod.model.tools.NetworkHandler;
@@ -47,6 +49,8 @@ public class MistbornController
 	public void Init(FMLInitializationEvent event)
 	{
 		logger.info("Init");
+		Tabs.ini();
+		MistbornItems.initItems();
 		events = new EventsHandler();
 	}
 	@EventHandler

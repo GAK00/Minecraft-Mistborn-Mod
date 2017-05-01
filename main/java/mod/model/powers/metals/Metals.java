@@ -60,5 +60,7 @@ public class Metals
 			metals.add(new Steel());
 			metals.add(new Tin());
 			metals.add(new Zinc());
+			metals.add(new Atium());
+			metals.add(new Gold());
 	}
 }
